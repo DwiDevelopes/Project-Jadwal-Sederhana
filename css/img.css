@@ -1,0 +1,27 @@
+    .dashboard-img {
+    max-height: 280px;
+    width: auto;
+    object-fit: contain;
+}
+
+.stats-card {
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.stats-card i {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.stats-card .number {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.stats-card:hover {
+    transform: translateY(-4px);
+}
